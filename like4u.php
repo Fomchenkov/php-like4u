@@ -7,7 +7,7 @@ $LIKE4U_TOKEN = '';
 class Instagram {
 
   public static function likes($count, $url) {
-    echo 'Instagram.likes ' + count + ' ' + url + '\n';
+    echo 'Instagram.likes ' + $count + ' ' + $url + '\n';
     $snoopy = new Snoopy();
     global $LIKE4U_TOKEN;
     $href = 'https://like4u.ru/likes/instagram/likes.json';
